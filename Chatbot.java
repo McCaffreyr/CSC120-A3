@@ -1,7 +1,9 @@
+import java.util.List;
+
 interface Chatbot {
 
     void chat();
-    void printTranscript();
-    String respond(String inputString); 
+    void printTranscript(List transcript);
+    String RandomResponse();
     
 }
